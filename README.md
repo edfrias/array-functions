@@ -2,7 +2,7 @@
 
 **This is an exercise made for academic purposes**
 
-The old version of the functions were using a custom test runner and a custom expectation library.
+The old version of these functions were using a custom test runner and a custom expectation library.
 
 I'm planing to refactor this code into ES6 and run tests with Jest.
 
