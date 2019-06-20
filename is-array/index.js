@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 /**
  * Function that evaluates if the parameter passed is an Array or not.
@@ -9,9 +9,9 @@
  */
 
 const isArray = element => {
-    if (element === undefined) throw TypeError(element + ' is not an array');
+    if (element === undefined) throw TypeError(element + ' is not an array')
 
-    return (element instanceof Array) ? true : false;
+    return (element instanceof Array) ? true : false
 }
 
 module.exports = isArray

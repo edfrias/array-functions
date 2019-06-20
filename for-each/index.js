@@ -1,5 +1,4 @@
-'use strict';
-
+'use strict'
 
 /**
  * Iterates an array and evaluates an expression on each of its values.
@@ -8,15 +7,6 @@
  * @param {Function} callback The expression to evaluate.
  */
 
-// function forEach(array, callback) {
-// 	if (!(array instanceof Array)) throw TypeError(array + ' is not an array');
-// 	if (typeof callback !== 'function') throw new TypeError(callback + ' is not a function');
-
-// 	for (var i = 0; i < array.length; i++)
-// 		callback(array[i], i);
-// }
-
-// forEach without forEach && without for loop
 const forEach = (array, callback) => {
 	if (!(array instanceof Array)) throw TypeError(array + ' is not an array')
 	if (typeof callback !== 'function') throw new TypeError(callback + ' is not a function')
@@ -31,14 +21,6 @@ const forEach = (array, callback) => {
 		}
 		forEach(0)
 	}
-
-	// Alternative version:
-	// array.length && (function forEach(index) {
-	// 	callback(array[index], index);
-
-	// 	if (++index < array.length)
-	// 		forEach(index);
-	// })(0);
 }
 
 module.exports = forEach

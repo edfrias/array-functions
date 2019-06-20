@@ -9,7 +9,6 @@
  * @returns {boolean} True if all values match the expression, otherwise false.
  */
 
-
 const every = (array, callback) => {
     if (!(array instanceof Array)) throw TypeError(array + ' is not an array')
     if (typeof callback !== 'function') throw new TypeError(callback + ' is not a function')
