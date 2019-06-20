@@ -1,7 +1,18 @@
 ## Array Methods without array methods!
 
-Here are the implemented methods:
+**This is an exercise made for academic purposes**
 
+The old version of the functions were using a custom test runner and a custom expectation library.
+
+I'm planing to refactor this code into ES6 and run tests with Jest.
+
+Feel free to grab them if it may be helpful for you in any way.
+
+Cheers!
+
+---
+
+### Here are the implemented methods:
 - **Array.prototype.isArray() in ES6 and with Jest tests**
 - **Array.prototype.concat() in ES6 and with Jest tests**
 - **Array.prototype.every() in ES6 and with Jest tests**
