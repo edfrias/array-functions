@@ -1,0 +1,16 @@
+{
+  "name": "array-functions",
+  "version": "1.0.0",
+  "description": "Here are the implemented methods:",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.8.0"
+  }
+}
