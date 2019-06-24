@@ -3,8 +3,7 @@
 /**
  * Function that lets you concatenate an array inside another array
  *
- * @param {Array} arrayA The array which is the target where you will put the content from the second array.
- * @param {Array} arrayB The array that you will put inside the first array.
+ * @param {Array} args The array and the elements you want to concatenate
  *
  * @returns {Array} The sum of the two arrays.
  */
