@@ -5,12 +5,20 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand"
+    "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand",
+    "ci": "npm test",
+    "audit": "npm audit",
+    "audit:high": "npm audit --audit-level=high",
+    "audit:prod": "npm audit --omit=dev --audit-level=high"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "jest": "^24.8.0"
+  "devDependencies": {
+    "jest": "^30.0.5"
   }
 }
